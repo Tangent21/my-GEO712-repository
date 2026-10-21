@@ -26,7 +26,7 @@ knitr::opts_chunk$set(
 **Newton–Leibniz Formula**
 
 $$
-\int_a^b f(x)\,dx = F(b)-F(a),
+\int_a^b f(x)\, dx = F(b)-F(a),
 \qquad \text{where } F'(x)=f(x)
 $$
 
