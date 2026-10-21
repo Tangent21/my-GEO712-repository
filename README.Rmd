@@ -1,11 +1,14 @@
 ---
-title: "Tan-Activity-1"
-output: pdf_document
-date: "2026-09-28"
+output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
 ```
 
 # Main research interest
@@ -56,4 +59,5 @@ result <- integrate(f, lower = lower, upper = upper)
 cat("Lower limit:", lower, "\n")
 cat("Upper limit:", upper, "\n")
 cat("Integral value:", result$value, "\n")
+
 ```

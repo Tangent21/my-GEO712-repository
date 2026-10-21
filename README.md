@@ -68,9 +68,9 @@ result <- integrate(f, lower = lower, upper = upper)
 
 # print limits and integral value
 cat("Lower limit:", lower, "\n")
-#> Lower limit: 18
+#> Lower limit: 7
 cat("Upper limit:", upper, "\n")
-#> Upper limit: 20
+#> Upper limit: 18
 cat("Integral value:", result$value, "\n")
-#> Integral value: 722.6667
+#> Integral value: 1829.667
 ```
