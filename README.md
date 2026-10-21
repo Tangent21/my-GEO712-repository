@@ -34,7 +34,9 @@ carbon dynamics and resilience.
 
 ## Favorite Equation
 
-**Newton–Leibniz Formula** $$
+**Newton–Leibniz Formula**
+
+$$
 \int_a^b f(x)\,dx = F(b)-F(a),
 \qquad \text{where } F'(x)=f(x)
 $$
@@ -68,9 +70,9 @@ result <- integrate(f, lower = lower, upper = upper)
 
 # print limits and integral value
 cat("Lower limit:", lower, "\n")
-#> Lower limit: 7
+#> Lower limit: 5
 cat("Upper limit:", upper, "\n")
-#> Upper limit: 18
+#> Upper limit: 11
 cat("Integral value:", result$value, "\n")
-#> Integral value: 1829.667
+#> Integral value: 402
 ```
