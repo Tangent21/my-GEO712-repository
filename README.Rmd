@@ -1,35 +1,59 @@
 ---
-output: github_document
+title: "Tan-Activity-1"
+output: pdf_document
+date: "2026-09-28"
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# my-GEO712-repository
+# Main research interest
+**My main research interests** include remote sensing, forest and vegetation ecosystem monitoring, aboveground biomass and carbon dynamics, and the application of machine learning/deep learning to remote sensing. **My previous research** has focused on forest tree species mapping, biomass estimation, and forest disturbance monitoring. These studies were mainly conducted over relatively limited spatial extents. **Currently**, I am interested in extending my research to larger **regional/global scales** to understand the dynamics and functioning of forest and vegetation ecosystems. **A particular focus of my research** is understanding how terrestrial ecosystems respond to global warming and other environmental changes, and how these changes affect ecosystem carbon cycling. I hope to use long-term satellite observations, multi-source remote sensing data, and machine learning approaches to monitor changes in vegetation productivity, biomass, carbon stocks, and ecosystem disturbances at large spatial and temporal scales. I also aim to examine how factors such as temperature, drought, wildfire, land-use change, and other disturbances influence ecosystem carbon dynamics and resilience.
 
-<!-- badges: start -->
-<!-- badges: end -->
+# Favorites
+## Favorite Music
+1. "Merry Christmas Mr.Lawrence"- Ryuichi Sakamoto
+2. "Imagine"- John Lennon
+3. "Bohemian Rhapsody"- Queen
+4. "The Great Gig in the Sky"- Pink Floyd
+5. "Untitled(How Does It Feel)"- D'Angelo
 
-The goal of my-GEO712-repository is to ...
+## Favorite Equation
+**Newton–Leibniz Formula**
+$$
+\int_a^b f(x)\,dx = F(b)-F(a),
+\qquad \text{where } F'(x)=f(x)
+$$
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+## Favorite Artists
+| Name | Achievements |
+|---|---|
+| Christopher Nolan | Director, Academy Award winner |
+| Hans Zimmer | Composer, Academy Award winner |
+| Lang Lang | Pianist, International concert performer |
+| Ryuichi Sakamoto | Composer and pianist, Academy Award winner |
+| Ieoh Ming Pei | Architect, Pritzker Prize winner |
 
-```{r cars}
-summary(cars)
+# A Chunk of Code
+
+```{r}
+# Randomly two limits between 0-20
+limits <- sort(sample(0:20, 2))
+
+lower <- limits[1]
+upper <- limits[2]
+
+# Define f(x)= x^2
+f <- function(x) {
+  x^2
+}
+
+# Calculate 
+result <- integrate(f, lower = lower, upper = upper)
+
+# print limits and integral value
+cat("Lower limit:", lower, "\n")
+cat("Upper limit:", upper, "\n")
+cat("Integral value:", result$value, "\n")
 ```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub.

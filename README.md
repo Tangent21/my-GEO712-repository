@@ -1,34 +1,76 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# my-GEO712-repository
+# Main research interest
 
-<!-- badges: start -->
+**My main research interests** include remote sensing, forest and
+vegetation ecosystem monitoring, aboveground biomass and carbon
+dynamics, and the application of machine learning/deep learning to
+remote sensing. **My previous research** has focused on forest tree
+species mapping, biomass estimation, and forest disturbance monitoring.
+These studies were mainly conducted over relatively limited spatial
+extents. **Currently**, I am interested in extending my research to
+larger **regional/global scales** to understand the dynamics and
+functioning of forest and vegetation ecosystems. **A particular focus of
+my research** is understanding how terrestrial ecosystems respond to
+global warming and other environmental changes, and how these changes
+affect ecosystem carbon cycling. I hope to use long-term satellite
+observations, multi-source remote sensing data, and machine learning
+approaches to monitor changes in vegetation productivity, biomass,
+carbon stocks, and ecosystem disturbances at large spatial and temporal
+scales. I also aim to examine how factors such as temperature, drought,
+wildfire, land-use change, and other disturbances influence ecosystem
+carbon dynamics and resilience.
 
-<!-- badges: end -->
+# Favorites
 
-The goal of my-GEO712-repository is to …
+## Favorite Music
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+1.  “Merry Christmas Mr.Lawrence”- Ryuichi Sakamoto
+2.  “Imagine”- John Lennon
+3.  “Bohemian Rhapsody”- Queen
+4.  “The Great Gig in the Sky”- Pink Floyd
+5.  “Untitled(How Does It Feel)”- D’Angelo
+
+## Favorite Equation
+
+**Newton–Leibniz Formula** $$
+\int_a^b f(x)\,dx = F(b)-F(a),
+\qquad \text{where } F'(x)=f(x)
+$$
+
+## Favorite Artists
+
+| Name              | Achievements                               |
+|-------------------|--------------------------------------------|
+| Christopher Nolan | Director, Academy Award winner             |
+| Hans Zimmer       | Composer, Academy Award winner             |
+| Lang Lang         | Pianist, International concert performer   |
+| Ryuichi Sakamoto  | Composer and pianist, Academy Award winner |
+| Ieoh Ming Pei     | Architect, Pritzker Prize winner           |
+
+# A Chunk of Code
 
 ``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+# Randomly two limits between 0-20
+limits <- sort(sample(0:20, 2))
+
+lower <- limits[1]
+upper <- limits[2]
+
+# Define f(x)= x^2
+f <- function(x) {
+  x^2
+}
+
+# Calculate 
+result <- integrate(f, lower = lower, upper = upper)
+
+# print limits and integral value
+cat("Lower limit:", lower, "\n")
+#> Lower limit: 18
+cat("Upper limit:", upper, "\n")
+#> Upper limit: 20
+cat("Integral value:", result$value, "\n")
+#> Integral value: 722.6667
 ```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date.
-
-You can also embed plots, for example:
-
-![](README_files/figure-gfm/pressure-1.png)<!-- -->
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub.
