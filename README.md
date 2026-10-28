@@ -25,9 +25,16 @@ scales. I also aim to examine how factors such as temperature, drought,
 wildfire, land-use change, and other disturbances influence ecosystem
 carbon dynamics and resilience.
 
-![Biomass satellite](images/Biomass-satellite.jpg) *Figure 1. Biomass
-Satellite ( Source: [European Space Agency
-(ESA)](https://www.esa.int/))*
+<div class="figure" style="text-align: center">
+
+<img src="images/Biomass-satellite.jpg" alt="Biomass Satellite ( Source: [European Space Agency (ESA)](https://www.esa.int/))" width="70%" />
+<p class="caption">
+
+Biomass Satellite ( Source: [European Space Agency
+(ESA)](https://www.esa.int/))
+</p>
+
+</div>
 
 # Favorites
 
@@ -77,9 +84,9 @@ result <- integrate(f, lower = lower, upper = upper)
 
 # print limits and integral value
 cat("Lower limit:", lower, "\n")
-#> Lower limit: 10
+#> Lower limit: 1
 cat("Upper limit:", upper, "\n")
-#> Upper limit: 18
+#> Upper limit: 20
 cat("Integral value:", result$value, "\n")
-#> Integral value: 1610.667
+#> Integral value: 2666.333
 ```
