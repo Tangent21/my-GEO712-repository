@@ -84,9 +84,19 @@ result <- integrate(f, lower = lower, upper = upper)
 
 # print limits and integral value
 cat("Lower limit:", lower, "\n")
-#> Lower limit: 13
+#> Lower limit: 9
 cat("Upper limit:", upper, "\n")
-#> Upper limit: 16
+#> Upper limit: 19
 cat("Integral value:", result$value, "\n")
-#> Integral value: 633
+#> Integral value: 2043.333
 ```
+
+## Project Structure
+
+- `data/`: Not yet created
+- `images/`: Store images and figures
+- `scripts/`: Not yet created
+- `renv/`: Store R package environment files.
+- `README.Rmd`: The source file of project introduction
+- `README.md`: The github version of `README.Rmd`
+- `my-GEO712-repository.Rproj`: The RStudio project file
