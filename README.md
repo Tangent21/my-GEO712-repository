@@ -27,10 +27,10 @@ carbon dynamics and resilience.
 
 <div class="figure" style="text-align: center">
 
-<img src="images/Biomass-satellite.jpg" alt="Biomass Satellite ( Source: [European Space Agency (ESA)](https://www.esa.int/))" width="70%" />
+<img src="images/Biomass-satellite.jpg" alt="Figure 1. Biomass Satellite ( Source: [European Space Agency (ESA)](https://www.esa.int/))" width="70%" />
 <p class="caption">
 
-Biomass Satellite ( Source: [European Space Agency
+Figure 1. Biomass Satellite ( Source: [European Space Agency
 (ESA)](https://www.esa.int/))
 </p>
 
@@ -84,9 +84,9 @@ result <- integrate(f, lower = lower, upper = upper)
 
 # print limits and integral value
 cat("Lower limit:", lower, "\n")
-#> Lower limit: 1
+#> Lower limit: 5
 cat("Upper limit:", upper, "\n")
-#> Upper limit: 20
+#> Upper limit: 15
 cat("Integral value:", result$value, "\n")
-#> Integral value: 2666.333
+#> Integral value: 1083.333
 ```
