@@ -1,6 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+This repository is for practicing how to use GitHub,
+[Reproducible-Research-WorkflowPublic](https://github.com/paezha/Reproducible-Research-Workflow)
+
 # Main research interest
 
 **My main research interests** include remote sensing, forest and
@@ -21,6 +24,10 @@ carbon stocks, and ecosystem disturbances at large spatial and temporal
 scales. I also aim to examine how factors such as temperature, drought,
 wildfire, land-use change, and other disturbances influence ecosystem
 carbon dynamics and resilience.
+
+![Biomass satellite](images/Biomass-satellite.jpg) *Figure 1. Biomass
+Satellite ( Source: [European Space Agency
+(ESA)](https://www.esa.int/))*
 
 # Favorites
 
@@ -70,9 +77,9 @@ result <- integrate(f, lower = lower, upper = upper)
 
 # print limits and integral value
 cat("Lower limit:", lower, "\n")
-#> Lower limit: 8
+#> Lower limit: 10
 cat("Upper limit:", upper, "\n")
-#> Upper limit: 16
+#> Upper limit: 18
 cat("Integral value:", result$value, "\n")
-#> Integral value: 1194.667
+#> Integral value: 1610.667
 ```
